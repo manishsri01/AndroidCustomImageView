@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <com.androidhub4you.crop.RoundedImageView
+        android:id="@+id/imageView_round"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_launcher" />
+
+    <com.androidhub4you.crop.OvalImageView
+        android:id="@+id/imageView_oval"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_launcher" />
+
+    <com.androidhub4you.crop.TriangleImageView
+        android:id="@+id/imageView_triangle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_launcher" />
+
+    <com.androidhub4you.crop.HexagonImageView
+        android:id="@+id/imageView_hexagon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_launcher" />
+
+</LinearLayout>
